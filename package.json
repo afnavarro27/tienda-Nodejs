@@ -1,0 +1,17 @@
+{
+  "name": "tienda",
+  "version": "1.0.0",
+  "description": "proyecto final de la tienda",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Felipe Navarro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mogoose": "0.0.1-security",
+    "mongoose": "^6.5.4",
+    "nodemon": "^2.0.19"
+  }
+}
