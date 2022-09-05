@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
-const url = 'mongodb+srv://afnavarro27:felipe123@cluster0.6wd0h.mongodb.net/?retryWrites=true&w=majority'
+const user ='Fe_Tienda';
+const passwors = 'n7JL7jZJwGkxx65Y';
+const dbname = 'POSTienda'
+
+const url = `mongodb+srv://${user}:${passwors}@cluster0.6wd0h.mongodb.net/${dbname}?retryWrites=true&w=majority`
 
 const connectionParams ={
     useNewUrlParser : true,
