@@ -17,6 +17,7 @@ router.get('/conectar', (req,res)=>{
 })
 
 
+
 router.get('/', async(req, res)=>{
     try {
         const arrayClienteDB = await Cliente.find()
