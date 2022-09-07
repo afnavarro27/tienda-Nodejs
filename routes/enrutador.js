@@ -7,12 +7,14 @@ router.get('/inicio', (req,res)=>{
     res.send("soy un inicio enrutado");
 })
 
-router.get('/inicio', (req,res)=>{
-    res.send("soy un inicio enrutado");
-})
 
 router.get('/conectar', (req,res)=>{
     bcd.mongoose;
+    res.send("Conectado a db")
+})
+
+router.get('/index', (req,res)=>{
+    //Me falta hacer esta coneccion al index!!!
 })
 
 module.exports = router;

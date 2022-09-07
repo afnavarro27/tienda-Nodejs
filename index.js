@@ -8,3 +8,5 @@ app.use('/',enrutador)
 app.listen(PORT,(req,res)=>{
     console.log("servidor corriendo en el server: "+PORT)
 })
+
+//Aca debo agregar el index

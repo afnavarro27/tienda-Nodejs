@@ -4,7 +4,7 @@ const bcd = require('../config/connection');
 
 const Vendedor = require('../models/vendedores');
 
-router.get('/', async(req,res)=>{
+router.get('/vendedor', async(req,res)=>{
     try{
         const arrayVendedorDB = await Vendedor.find()
         console.log(arrayVendedorDB)
