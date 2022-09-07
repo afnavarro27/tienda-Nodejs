@@ -6,7 +6,7 @@ const clienteSchema = new Schema ({
     tel : String,
     totalComprado : Boolean ,
     historicoCompras : Boolean,
-    ubicacion :     {longitud : Boolean,
+    ubicacion :     {longitud : Boolean,    
         latitud : Boolean,
         zoom :  Number}
 })
