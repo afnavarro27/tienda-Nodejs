@@ -3,7 +3,10 @@ const router = express.Router();
 const bcd = require('../config/connection');
 // Clientes 
 const Cliente = require('../models/clientes');
-    
+
+/*-------------CLIENTE-------------*/
+
+
 router.get('/cliente', async(req, res)=>{
     try {
         const arrayClienteDB = await Cliente.find()
@@ -17,7 +20,5 @@ router.get('/cliente', async(req, res)=>{
         console.log(error)
     }
 })
-
-
 
 module.exports = router;

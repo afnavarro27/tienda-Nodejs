@@ -4,13 +4,13 @@ const Schema = mongoose.Schema;
 const clienteSchema = new Schema ({
     nombre : String,
     tel : String,
-    totalComprado : Boolean ,
-    historicoCompras : Boolean,
-    ubicacion :     {longitud : Boolean,    
-        latitud : Boolean,
+    totalComprado : Number ,
+    historicoCompras : Number,
+    ubicacion :{longitud : Number,    
+        latitud : Number,
         zoom :  Number}
 })
 
 const Cliente = mongoose.model('Cliente', clienteSchema); 
 
-module.exports = Cliente;  
+module.exports = Cliente;

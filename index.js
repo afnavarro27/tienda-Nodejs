@@ -1,5 +1,5 @@
 const express = require('express')
-const PORT = process.env.PORT ||9000 ;
+const PORT = process.env.PORT ||9002 ;
 const enrutador = require("./routes/enrutador")
 app = express()
 

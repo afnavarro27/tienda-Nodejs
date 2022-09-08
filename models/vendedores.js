@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const vendedorSchema = new Schema({
     nombre : String,
-    documento : BigInt,
+    documento : Number,
     ventasDespachadas : Number
 });
 
