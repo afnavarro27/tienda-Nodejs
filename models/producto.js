@@ -2,12 +2,12 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const productoSchema = new Schema ({
-    referencia : Number,
+    referencia : String,
     nombre : String,
     descripcion : Text,
     precio : Number,
     stock : Number,
-    //imagen : ,
+    //imagen : , //link
     habilitado : Boolean
 });
 
