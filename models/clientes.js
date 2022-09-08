@@ -9,7 +9,7 @@ const clienteSchema = new Schema ({
     ubicacion : {longitud : Number,    
         latitud : Number,
         zoom :  Number}
-})
+});
 
 const Cliente = mongoose.model('Cliente', clienteSchema); 
 
